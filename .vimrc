@@ -8,6 +8,9 @@
 " leader = ','
 " ack в консоли ищиет слово в содержимом файлов
 
+let mapleader = ","
+let maplocalleader = "'"
+
 source ~/.vim/vimrc/set.vim
 source ~/.vim/vimrc/plugin.vim
 source ~/.vim/vimrc/map.vim
@@ -24,3 +27,9 @@ augroup filetype_html
     :autocmd FileType html nnoremap <buffer><localleader> f Vatzf
 augroup END
 
+
+" закомментировать или раскоментировать код.
+vnoremap gc :s/^/\/\//<CR>:noh<CR>
+nnoremap gcl :s/^/\/\//<CR>:noh<CR>
+vnoremap gd :s/^\/\///<CR>
+nnoremap gdl :s/^\/\///<CR>

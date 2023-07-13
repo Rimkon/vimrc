@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/idis/Yandex/sprint'
+let g:netrw_dirhist_3='/home/idis/.vim/vimrc'
+let g:netrw_dirhist_2='/home/idis/Yandex/correctSubtitri'
+let g:netrw_dirhist_1='/home/idis/.vim/vimrc'

@@ -7,4 +7,3 @@ autocmd BufNewFile *.cpp 0r ~/.vim/templates/cpp.tpl
 autocmd BufWinLeave *.* silent mkview   " при закрытии файла сохранить 'вид' 
                                         " Курсор будет стоять там где в прошлый раз делались изменения.
 autocmd BufWinEnter *.* silent loadview " при открытии - восстановить сохранённый
-

@@ -30,6 +30,3 @@ nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
 "<cr>
 "<esc>5kb<esc>:.,+5s/Noname/
 "<c-r>=Eatchar('\s')<cr>
-
-
-

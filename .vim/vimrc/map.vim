@@ -22,10 +22,13 @@
       " inoremap <c-l> <esc>ll<insert>
        "------------------------------------------
        "перключение между окнами
-       nnoremap <leader>h :wincmd h<CR>
-       nnoremap <leader>j :wincmd j<CR>
-       nnoremap <leader>k :wincmd k<CR>
-       nnoremap <leader>l :wincmd l<CR>
+
+       nnoremap <leader>h :bp<CR>
+       " nnoremap <leader>j :wincmd j<CR>
+       "nnoremap <leader>k :source ~/code/scripts/version1/myScript.vim<CR><CR>
+       nnoremap <leader>k :source ~/.vim/vimrc/myScript.vim<CR><CR>
+       vnoremap <leader>k :source ~/.vim/vimrc/myScript_select.vim<CR><CR>
+       nnoremap <leader>l :bn<CR>
          
        nnoremap <leader>u :UndotreeShow<CR>
        nnoremap <Leader>w :write<CR>
